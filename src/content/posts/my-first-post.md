@@ -1,6 +1,6 @@
 ---
 author: 라무
-pubDatetime: 2026-06-08T12:00:00Z
+pubDatetime: 2026-06-07T12:00:00Z
 title: 골든타임 라운지에 오신 것을 환영합니다!
 slug: welcome-to-golden-time
 featured: true
