@@ -12,6 +12,11 @@ export default defineAstroPaperConfig({
     timezone: "Asia/Seoul",
     dir: "ltr",
   },
+  // ⭐ 핵심 추가 부분: 한국어를 쓰겠다고 선언!
+  i18n: {
+    locales: ["en", "ko"],
+    defaultLocale: "ko",
+  },
   posts: {
     perPage: 5,
     perIndex: 5,
