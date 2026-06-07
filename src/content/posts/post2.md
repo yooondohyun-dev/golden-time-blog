@@ -1,6 +1,6 @@
 ---
 author: 라무
-pubDatetime: 2026-06-08T10:00:00Z
+pubDatetime: 2026-06-07T11:00:00Z
 title: 은퇴 후 넓은 집 줄여갈 때 꼭 챙겨야 할 '다운사이징' 세금 체크리스트
 slug: retirement-downsizing-tax-guide
 featured: false
