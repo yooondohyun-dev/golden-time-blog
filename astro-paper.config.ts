@@ -8,14 +8,9 @@ export default defineAstroPaperConfig({
     author: "라무",
     profile: "https://hyuksol.com",
     ogImage: "default-og.jpg",
-    lang: "ko",
+    lang: "en",
     timezone: "Asia/Seoul",
     dir: "ltr",
-  },
-  // ⭐ 핵심 추가 부분: 한국어를 쓰겠다고 선언!
-  i18n: {
-    locales: ["en", "ko"],
-    defaultLocale: "ko",
   },
   posts: {
     perPage: 5,
@@ -27,20 +22,24 @@ export default defineAstroPaperConfig({
     dynamicOgImage: true,
     showArchives: true,
     showBackButton: true,
+    editPost: {
+      enabled: true,
+      url: "https://github.com/satnaing/astro-paper/edit/main/",
+    },
     search: "pagefind",
   },
   socials: [
-    { name: "github", url: "https://github.com/satnaing/astro-paper" },
-    { name: "x", url: "https://x.com/username" },
+    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
+    { name: "x",        url: "https://x.com/username" },
     { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail", url: "mailto:bestbori06@gmail.com" },
+    { name: "mail",     url: "mailto:bestbori06@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
-    { name: "x", url: "https://x.com/intent/post?url=" },
+    { name: "x",        url: "https://x.com/intent/post?url=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },
     { name: "pinterest", url: "https://pinterest.com/pin/create/button/?url=" },
-    { name: "mail", url: "mailto:?subject=See%20this%20post&body=" },
+    { name: "mail",     url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
